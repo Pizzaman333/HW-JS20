@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <ul class="gallery">
+      <li>
+        <img
+          class="image"
+          src="https://static.vecteezy.com/system/resources/thumbnails/050/531/491/small_2x/a-cat-wearing-glasses-sitting-on-top-of-a-book-free-photo.jpg"
+          alt="зображення"
+        />
+        <img
+          class="full-image is-hidden"
+          src="https://static.vecteezy.com/system/resources/thumbnails/050/531/491/small_2x/a-cat-wearing-glasses-sitting-on-top-of-a-book-free-photo.jpg"
+          alt="зображення"
+        />
+      </li>
+      <li>
+        <img
+          class="image"
+          src="https://happyandpolly.com/cdn/shop/articles/4_e8c77a1f-bfe9-4ed2-93e1-3fe873bdc074.jpg?v=1680255613"
+          alt="зображення"
+        />
+        <img
+          class="full-image is-hidden"
+          src="https://happyandpolly.com/cdn/shop/articles/4_e8c77a1f-bfe9-4ed2-93e1-3fe873bdc074.jpg?v=1680255613"
+          alt="зображення"
+        />
+      </li>
+      <li>
+        <img
+          class="image"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdX3m1KJ8-PEUvd_kQo5jkfeo8UPRPqVYk4w&s"
+          alt="зображення"
+        />
+        <img
+          class="full-image is-hidden"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdX3m1KJ8-PEUvd_kQo5jkfeo8UPRPqVYk4w&s"
+          alt="зображення"
+        />
+      </li>
+      <li>
+        <img
+          class="image"
+          src="https://thumbs.dreamstime.com/b/cute-cat-wallpaper-background-design-instagram-facebook-wall-painting-generative-aibackground-photo-image-art-ai-324113746.jpg"
+          alt="зображення"
+        />
+        <img
+          class="full-image is-hidden"
+          src="https://thumbs.dreamstime.com/b/cute-cat-wallpaper-background-design-instagram-facebook-wall-painting-generative-aibackground-photo-image-art-ai-324113746.jpg"
+          alt="зображення"
+        />
+      </li>
+      <li>
+        <img
+          class="image"
+          src="https://www.worldsbestcatlitter.com/wp-content/uploads/2016/02/featured-image_adopt-2-cats-blog-800x400.jpg"
+          alt="зображення"
+        />
+        <img
+          class="full-image is-hidden"
+          src="https://www.worldsbestcatlitter.com/wp-content/uploads/2016/02/featured-image_adopt-2-cats-blog-800x400.jpg"
+          alt="зображення"
+        />
+      </li>
+      <li>
+        <img
+          class="image"
+          src="https://thumbs.dreamstime.com/b/staredown-medieval-cats-design-background-instagram-facebook-wall-painting-generative-ai-generative-ai-background-cats-325134134.jpg"
+          alt="зображення"
+        />
+        <img
+          class="full-image is-hidden"
+          src="https://thumbs.dreamstime.com/b/staredown-medieval-cats-design-background-instagram-facebook-wall-painting-generative-ai-generative-ai-background-cats-325134134.jpg"
+          alt="зображення"
+        />
+      </li>
+    </ul>
+    <div class="backdrop"></div>
+    <img class="cross is-hidden" src="./images/cross.svg" alt="cross">
+    <img class="arrow1 is-hidden" src="./images/arrow-left2.svg" alt="arrow">
+    <img class="arrow2 is-hidden" src="./images/arrow-left2.svg" alt="arrow">
+    <div id="controls">
+      <input type="number" min="0" max="100" step="1" placeholder="Кількість квадратів"/>
+      <button type="button" data-action="render">Створити</button>
+      <button type="button" data-action="destroy">Очистити</button>
+    </div>
+    <div id="boxes"></div>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
